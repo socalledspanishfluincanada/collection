@@ -1,5 +1,8 @@
 field,display_name
 title,Title
+newspaper,Newspaper
 date,Date
-description,Description
-subject,Subjects
+location,Location
+page,Page
+tag,Tag
+image,Image

@@ -1,5 +1,6 @@
 field,display_name,btn,hidden,sort_name
+newspaper,Newspaper,true
 date,Date,,,Date
-creator,Creator,,,
-subject,,true
 location,,true
+tag,Tag,true
+subject,Keywords,true

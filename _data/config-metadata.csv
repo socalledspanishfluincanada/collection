@@ -1,15 +1,13 @@
 field,display_name,browse_link,external_link
-title,Title,
-creator,Creator,
-date,Date Created,
-description,Description,
-subject,Subjects,true
-location,Location
+format,Format
+title,Title
+newspaper,Newspaper,true
+date,Date
+location,Location,true
+page,Page
+tag,Tag,true
+image,Image
+notes,Notes
+subject,Keywords,true
 latitude,Latitude
 longitude,Longitude
-source,Source
-identifier,Source Identifier,,
-type,Type,
-format,Format,
-rights,Rights,
-rightsstatement,Rights Statement,,true

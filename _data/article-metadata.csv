@@ -1,0 +1,10 @@
+objectid,parentid,filename,newspaper,date,location,page,tag,title,image,notes,subject,format,latitude,longitude
+o11,,,Globe (Toronto),,"Toronto, Ontario",,,,,,,record,43.6703,-79.3867
+o11m29181,o11,O11M29181,Globe (Toronto),1918-05-29,"Toronto, Ontario",1,GC,British and Foreign,N,First appearance,,application/pdf,43.6703,-79.3867
+o11m29182,o11,O11M29182,Globe (Toronto),1918-05-29,"Toronto, Ontario",4,GC,Spain Suffers from Epidemic,N,Extension of first article,,application/pdf,43.6703,-79.3867
+o11m30181,o11,O11M30181,Globe (Toronto),1918-05-30,"Toronto, Ontario",1,GC,British and Foreign,N,U-Boat theory,,application/pdf,43.6703,-79.3867
+o11m30182,o11,O11M30182,Globe (Toronto),1918-05-30,"Toronto, Ontario",16,GC,Brought by U-Boat,N,Extension of first article,,application/pdf,43.6703,-79.3867
+o11m31181,o11,O11M31181,Globe (Toronto),1918-05-31,"Toronto, Ontario",5,GC,600 Doctors Ill,N,,,application/pdf,43.6703,-79.3867
+o11jun1718,o11,O11JUN1718,Globe (Toronto),1918-06-17,"Toronto, Ontario",2,GC,,N,,,application/pdf,43.6703,-79.3867
+o11jun21181,o11,O11JUN21181,Globe (Toronto),1918-06-21,"Toronto, Ontario",3,GC,Die at Work from Bad Food,N,,,application/pdf,43.6703,-79.3867
+o11jun27,o11,O11JUN27,Globe (Toronto),1918-06-27,"Toronto, Ontario",1,GC,Influenza Prevails Along German Front,N,"""Spanish type"" ",,application/pdf,43.6703,-79.3867

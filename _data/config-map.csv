@@ -1,5 +1,6 @@
 field,display_name,search
+newspaper,Newspaper,true
 date,Date,true
-creator,Creator,true
-subject,Subjects,true
 location,Location,true
+tag,Tag,true
+subject,Keywords,true
