@@ -1,37 +1,121 @@
-objectid,parentid,filename,newspaper,date,location,page,tag,title,image,notes,subject,format,latitude,longitude
-o11,,,Globe (Toronto),,"Toronto, Ontario",,GC,Globe (Toronto),N,,,compound_object,43.6703,-79.3867
-o11m29181,o11,O11M29181,Globe (Toronto),1918-05-29,"Toronto, Ontario",1,GC,British and Foreign,N,First appearance,,application/pdf,43.6703,-79.3867
-o11m29182,o11,O11M29182,Globe (Toronto),1918-05-29,"Toronto, Ontario",4,GC,Spain Suffers from Epidemic,N,Extension of first article,,application/pdf,43.6703,-79.3867
-o11m30181,o11,O11M30181,Globe (Toronto),1918-05-30,"Toronto, Ontario",1,GC,British and Foreign,N,U-Boat theory,,application/pdf,43.6703,-79.3867
-o11m30182,o11,O11M30182,Globe (Toronto),1918-05-30,"Toronto, Ontario",16,GC,Brought by U-Boat,N,Extension of first article,,application/pdf,43.6703,-79.3867
-o11m31181,o11,O11M31181,Globe (Toronto),1918-05-31,"Toronto, Ontario",5,GC,600 Doctors Ill,N,,,application/pdf,43.6703,-79.3867
-o11jun7181,o11,O11JUN7181,Globe (Toronto),1918-06-17,"Toronto, Ontario",2,GC,Mysterious Sickness Attacks Copenhagen,N,,,application/pdf,43.6703,-79.3867
-o11jun21181,o11,O11JUN21181,Globe (Toronto),1918-06-21,"Toronto, Ontario",3,GC,Die at Work from Bad Food,N,,,application/pdf,43.6703,-79.3867
-o11jun27181,o11,O11JUN27181,Globe (Toronto),1918-06-27,"Toronto, Ontario",1,GC,Influenza Prevails Along German Front,N,"""Spanish type"" ",,application/pdf,43.6703,-79.3867
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,
+objectid,parentid,filename,newspaper,date,location,page,tag,title,image,notes,subject,type,format,latitude,longitude
+o11,,,Globe (Toronto),,"Toronto, Ontario",,GC,Globe (Toronto),N,,,record,compound_object,43.6703,-79.3867
+o11m29181,o11,O11M29181.pdf,Globe (Toronto),5/29/1918,"Toronto, Ontario",1,GC,British and Foreign,N,Outbreak in Madrid,Grip,,application/pdf,43.6703,-79.3867
+o11m29182,o11,O11M29182.pdf,Globe (Toronto),5/29/1918,"Toronto, Ontario",4,GC,Spain Suffers from Epidemic,N,Outbreak in Madrid,La Grippe,,application/pdf,43.6703,-79.3867
+o11m30181,o11,O11M30181.pdf,Globe (Toronto),5/30/1918,"Toronto, Ontario",1,GC,British and Foreign,N,U-Boat theory,Grippe-like epidemic,,application/pdf,43.6703,-79.3867
+o11m30182,o11,O11M30182.pdf,Globe (Toronto),5/30/1918,"Toronto, Ontario",16,GC,Brought by U-Boat,N,U-Boat theory,Grippe-like epidemic,,application/pdf,43.6703,-79.3867
+o11m31181,o11,O11M31181.pdf,Globe (Toronto),5/31/1918,"Toronto, Ontario",5,GC,600 Doctors Ill,N,Outbreak in Spain,,,application/pdf,43.6703,-79.3867
+o11jun7181,o11,O11JUN7181.pdf,Globe (Toronto),6/17/1918,"Toronto, Ontario",2,GC,Mysterious Sickness Attacks Copenhagen,N,I,Similar to that in Spain,,application/pdf,43.6703,-79.3867
+o11jun21181,o11,O11JUN21181.pdf,Globe (Toronto),6/21/1918,"Toronto, Ontario",3,GC,Die at Work from Bad Food,N,I,Sickness prevelant in Spain,,application/pdf,43.6703,-79.3867
+o11jun27181,o11,O11JUN27181.pdf,Globe (Toronto),6/27/1918,"Toronto, Ontario",1,GC,Influenza Prevails Along German Front,N,I,Spanish type,,application/pdf,43.6703,-79.3867
+o11jul8181,o11,O11JUL8181.pdf,Globe (Toronto),7/8/1918,"Toronto, Ontario",1,M,Australians in New Drive,N,I,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11jul9181,o11,O11JUL9181.pdf,Globe (Toronto),7/9/1918,"Toronto, Ontario",1,M,British and Foreign,N,I,Spanish grippe,,application/pdf,43.6703,-79.3867
+o11jul10181,o11,O11JUL10181.pdf,Globe (Toronto),7/10/1918,"Toronto, Ontario",3,M,Drivemaybe on the Marne,N,AC,Spanish grippe,,application/pdf,43.6703,-79.3867
+o11jul11181,o11,O11JUL11181.pdf,Globe (Toronto),7/11/1918,"Toronto, Ontario",1,M,"Kaiser is Suffering from ""Spanish Grippe""",N,I,Spanish grippe,,application/pdf,43.6703,-79.3867
+o11jul12181,o11,O11JUL12181.pdf,Globe (Toronto),7/12/1918,"Toronto, Ontario",6,M,The Delayed Offensive,N,I,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11jul13181,o11,O11JUL13181.pdf,Globe (Toronto),7/13/1918,"Toronto, Ontario",1,M,Much Strength in New Lines,N,I,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11jul15181,o11,O11JUL15181.pdf,Globe (Toronto),7/15/1918,"Toronto, Ontario",6,M,Notes and Comments,N,,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11jul15182,o11,O11JUL15182.pdf,Globe (Toronto),7/15/1918,"Toronto, Ontario",16,M,Hunger Real Cause of German Illness,N,I,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11jul16181,o11,O11JUL16181.pdf,Globe (Toronto),7/16/1918,"Toronto, Ontario",5,M,Germans Talk of Revolution,N,I,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11jul25181,o11,O11JUL25181.pdf,Globe (Toronto),7/25/1918,"Toronto, Ontario",1,M,British and Foreign,N,I,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11jul25182,o11,O11JUL25182.pdf,Globe (Toronto),7/25/1918,"Toronto, Ontario",16,M,To Fight Influenza,N,I,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11aug3181,o11,O11AUG3181.pdf,Globe (Toronto),8/3/1918,"Toronto, Ontario",7,M,Die in Berlin From Epidemic,N,I,Spanish sickness,,application/pdf,43.6703,-79.3867
+o11aug6181,o11,O11AUG6181.pdf,Globe (Toronto),8/6/1918,"Toronto, Ontario",1,M,"Suanish ""Flue"" at Montreal",N,R,"Spanish ""flue""; Spanish grippe",,application/pdf,43.6703,-79.3867
+o11aug1718,o11,O11AUG1718.pdf,Globe (Toronto),8/17/1918,"Toronto, Ontario",7,M,Kissers are Urged to Take Precaution,N,R,Spanish influenza; Spanish affliction; Spanish variety,,application/pdf,43.6703,-79.3867
+o11aug21181,o11,O11AUG21181.pdf,Globe (Toronto),8/21/1918,"Toronto, Ontario",11,M,Spanish Grippe will Attack the Strongest,N,I,Spanish grippe,,application/pdf,43.6703,-79.3867
+o11aug26181,o11,O11AUG26181.pdf,Globe (Toronto),9/26/1918,"Toronto, Ontario",4,M,Notes and Comments,N,I,Spanish grippe,,application/pdf,43.6703,-79.3867
+o11s11181,o11,O11S11181.pdf,Globe (Toronto),9/11/1918,"Toronto, Ontario",1,M,Road Mending Big Task Now,N,No epidemic in the summer thanks to science,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11s19181,o11,O11S19181.pdf,Globe (Toronto),9/19/1918,"Toronto, Ontario",7,M,Symptoms of New Disease,N,Polish Camp in Canada,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11s21181,o11,O11S21181.pdf,Globe (Toronto),9/21/1918,"Toronto, Ontario",24,M,"More Spanish ""Flu"" Cases in Polish Camp",N,Polish Camp in Canada,"Spanish ""flu""; Spanish influenza; la grippe",,application/pdf,43.6703,-79.3867
+o11s23181,o11,O11S23181.pdf,Globe (Toronto),9/23/1918,"Toronto, Ontario",3,M,Canadian Hospitals Care for Americans,N,American soldiers in Canada's Atlantic,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11s23182,o11,O11S23182.pdf,Globe (Toronto),9/23/1918,"Toronto, Ontario",5,M,Camp Y.M.C.A is Robbed,N,AC,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11s23183,o11,O11S23183.pdf,Globe (Toronto),9/23/1918,"Toronto, Ontario",9,M,Spencer Quits 'Steenth Time,N,In U.S.,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11s24181,o11,O11S24181.pdf,Globe (Toronto),9/24/1918,"Toronto, Ontario",1,M,The Dominion,N,AC,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11s24182,o11,O11S24182.pdf,Globe (Toronto),9/24/1918,"Toronto, Ontario",8,M,"Fifth Fatal Case of Spanish ""Flu""",N,AC,"Spanish ""flu""; Spanish influenza; la grippe",,application/pdf,43.6703,-79.3867
+o11s25181,o11,O11S25181.pdf,Globe (Toronto),9/25/1918,"Toronto, Ontario",1,M,"""Flu"" Cases increasing",N,I,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11s25182,o11,O11S25182.pdf,Globe (Toronto),9/25/1918,"Toronto, Ontario",3,M,"""Flu"" Spreads in Quebec",N,In Quebec,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11s25183,o11,O11S25183.pdf,Globe (Toronto),9/25/1918,"Toronto, Ontario",7,M,City Free from Influenza,N,No more influenza in Toronto,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11s25184,o11,O11S25184.pdf,Globe (Toronto),9/25/1918,"Toronto, Ontario",11,M,Maj.-Gen/ Logie Inspects Troops,N,Polish Camp in Canada,"Spanish ""flu""; Spanish influenza",,application/pdf,43.6703,-79.3867
+o11s26181,o11,O11S26181.pdf,Globe (Toronto),9/26/1918,"Toronto, Ontario",2,M,Continues to Spread,N,"Spread in amry camps. ""From Atlantic""",Spanish influenza,,application/pdf,43.6703,-79.3867
+o11s26182,o11,O11S26182.pdf,Globe (Toronto),9/26/1918,"Toronto, Ontario",2,M,"355 Cases of ""Flu"" Reported at St. John's",N,Army camps,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11s26183,o11,O11S26183.pdf,Globe (Toronto),9/26/1918,"Toronto, Ontario",2,M,Epidemic Now in Hand,N,In Quebec,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11s26184,o11,O11S26184.pdf,Globe (Toronto),9/26/1918,"Toronto, Ontario",14,M,Influenza Epidemic at Camp Checked,N,AC,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11s27181,o11,O11S27181.pdf,Globe (Toronto),9/27/1918,"Toronto, Ontario",2,M,Epidemic is More Serious,N,AC,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11s27182,o11,O11S27182.pdf,Globe (Toronto),9/27/1918,"Toronto, Ontario",3,M,"73 Deaths from ""Flu""",N,AC,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11s27183,o11,O11S27183.pdf,Globe (Toronto),9/27/1918,"Toronto, Ontario",5,M,Many Victims in Italy,N,I,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11s27184,o11,O11S27184.pdf,Globe (Toronto),9/27/1918,"Toronto, Ontario",7,M,Two More Deaths in Polish Camp,N,AC,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11s28181,o11,O11S28181.pdf,Globe (Toronto),9/28/1918,"Toronto, Ontario",7,M,"Spanish ""Flu"" Not so Bad Now",N,AC,"Spanish ""flu""; Spanish influenza",,application/pdf,43.6703,-79.3867
+o11s28182,o11,O11S28182.pdf,Globe (Toronto),9/28/1918,"Toronto, Ontario",13,M,Coroner Criticizes Quebec authorities,N,In Quebec,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11s28183,o11,O11S28183.pdf,Globe (Toronto),9/28/1918,"Toronto, Ontario",14,M,Spanish Influenza May Sweep Westward,N,I,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11s30181,o11,O11S30181.pdf,Globe (Toronto),9/30/1918,"Toronto, Ontario",2,M,"Five Deaths Occur at Sydney From ""Flu""",N,In Nova Scotia,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11s30182,o11,O11S30182.pdf,Globe (Toronto),9/30/1918,"Toronto, Ontario",3,M,To Nurse Bostonians,N,Canadian nurses to U.S.,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11s30183,o11,O11S30183.pdf,Globe (Toronto),9/30/1918,"Toronto, Ontario",4,M,Halifax Mayor Protests,N,Quarantine concerns,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11s30184,o11,O11S30184.pdf,Globe (Toronto),9/30/1918,"Toronto, Ontario",5,M,"""Flu"" In Johannesburg",N,I,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11s30185,o11,O11S30185.pdf,Globe (Toronto),9/30/1918,"Toronto, Ontario",6,"M, GC",Notes and Comments,N,Blaming Spain,Spanish Influenza,,application/pdf,43.6703,-79.3867
+o11s30186,o11,O11S30186.pdf,Globe (Toronto),9/30/1918,"Toronto, Ontario",8,"M, GC","Spanish ""Flu"" Invades City",N,"In Toronto, Origins from Spain","Spanish ""flu""; Spanish influenza; la grippe",,application/pdf,43.6703,-79.3867
+o11s30187,o11,O11S30187.pdf,Globe (Toronto),9/30/1918,"Toronto, Ontario",11,M,Ridley Football Team Cancels Saturday Game Because of Epidemic,N,AC,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11s30188,o11,O11S30188.pdf,Globe (Toronto),9/30/1918,"Toronto, Ontario",13,M,To Fight Influenza,N,R,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11s30189,o11,O11S30189.pdf,Globe (Toronto),9/30/1918,"Toronto, Ontario",13,M,Open-Air Services in Camp Discontinued,N,AC,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11s3010,o11,O11S3010.pdf,Globe (Toronto),9/30/1918,"Toronto, Ontario",14,M,Taken to Montreal,N,R,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o1181,o11,O11O1181.pdf,Globe (Toronto),10/1/1918,"Toronto, Ontario",4,M,"Theatres, Dance Halls, Schools, All Closed",N,R,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o1182,o11,O11O1182.pdf,Globe (Toronto),10/1/1918,"Toronto, Ontario",6,M,The Spanish Influenza,N,R,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o1183,o11,O11O1183.pdf,Globe (Toronto),10/1/1918,"Toronto, Ontario",8,M,Query Origin of Epidemic,N,"Questioning origin, name",Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o1184,o11,O11O1184.pdf,Globe (Toronto),10/1/1918,"Toronto, Ontario",12,M,Sunday Football at the Harvard Stadium,N,Dispelling cases at Ridley College,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o2181,o11,O11O2181.pdf,Globe (Toronto),10/2/1918,"Toronto, Ontario",2,M,Paper Handkerchiefs,N,"""Invasion"", suggestion",Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o2182,o11,O11O2182.pdf,Globe (Toronto),10/2/1918,"Toronto, Ontario",5,M,Schools Closed in Sherbrooke,N,Health measures; cases; Indigenous,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o2183,o11,O11O2183.pdf,Globe (Toronto),10/2/1918,"Toronto, Ontario",6,M,Notes and Comments,N,Questioning name,La grippe,,application/pdf,43.6703,-79.3867
+o11o2184,o11,O11O2184.pdf,Globe (Toronto),10/2/1918,"Toronto, Ontario",8,M,No Cases Yet in Hospitals,N,R,Spanish influenza; la grippe,,application/pdf,43.6703,-79.3867
+o11o2185,o11,O11O2185.pdf,Globe (Toronto),10/2/1918,"Toronto, Ontario",16,M,Has Visited Air Force Camps,N,AC,Spanish Influenza,,application/pdf,43.6703,-79.3867
+o11o3181,o11,O11O3181.pdf,Globe (Toronto),10/3/1918,"Toronto, Ontario",4,M,As to Newspaper Reading,N,"""A provincial health officer warns the public not to become excited over what they read in the newspapers concering the Spanish influenza."" ",Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o3182,o11,O11O3182.pdf,Globe (Toronto),10/3/1918,"Toronto, Ontario",6,M,"Civilians Get Spanish ""Flu""",N,"In Toronto, questioning name, army camps, ",Spanish influenza; grippe,,application/pdf,43.6703,-79.3867
+o11o3183,o11,O11O3183.pdf,Globe (Toronto),10/3/1918,"Toronto, Ontario",10,M,Abatement in Epidemic,N,"Army camps, in U.S.",Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o3184,o11,O11O3184.pdf,Globe (Toronto),10/3/1918,"Toronto, Ontario",14,M,Halifax Helps Boston,N,Help Boston,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o3185,o11,O11O3185.pdf,Globe (Toronto),10/3/1918,"Toronto, Ontario",16,M,Quebec Barracks are Quarentined,N,AC,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o4181,o11,O11O4181.pdf,Globe (Toronto),10/4/1918,"Toronto, Ontario",2,M,County Physician Dies in Virgina,N,I,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o4182,o11,O11O4182.pdf,Globe (Toronto),10/4/1918,"Toronto, Ontario",2,M,Wife Follows Her Husband to Grace,N,Cases,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o41813,o11,O11O41813.pdf,Globe (Toronto),10/4/1918,"Toronto, Ontario",6,O,"King Alphonso Has ""Flu""",N,King of Spain has influenza,N/A,,application/pdf,43.6703,-79.3867
+o11o4184,o11,O11O4184.pdf,Globe (Toronto),10/4/1918,"Toronto, Ontario",6,M,Notes and Comments,N,"""Spain declares that the ""spanish flu"" came from Germany. A form of Hun-fluenza, seemingly""",Spanish flu,,application/pdf,43.6703,-79.3867
+o11o4185,o11,O11O4185.pdf,Globe (Toronto),10/4/1918,"Toronto, Ontario",8,"M, GC",Three Deaths in One Family,N,"Cases, measures",Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o4186,o11,O11O4186.pdf,Globe (Toronto),10/4/1918,"Toronto, Ontario",9,M,"Renfew Hit by Spanish ""Flu""",N,Ontario cases,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o4187,o11,O11O4187.pdf,Globe (Toronto),10/4/1918,"Toronto, Ontario",11,M,"""Eddie"" Martin Victim of Spanish Influenza",N,"Deaths, U.S ",Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o5181,o11,O11O5181.pdf,Globe (Toronto),10/5/1918,"Toronto, Ontario",2,M,Thirty-Two Deaths Now,N,R,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o5182,o11,O11O5182.pdf,Globe (Toronto),10/5/1918,"Toronto, Ontario",2,M,"Nearly 2,000 Men Sent Overseas by U.S; Three Cases in Tillsonburg",N,R,Spanish influenza; la grippe,,application/pdf,43.6703,-79.3867
+o11o5183,o11,O11O5183.pdf,Globe (Toronto),10/5/1918,"Toronto, Ontario",3,M,"""Flu"" Cases at London",N,R,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o5184,o11,O11O5184.pdf,Globe (Toronto),10/5/1918,"Toronto, Ontario",4,M,Brockville Sends Help,N,Nurses going to help Renfrew,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o5185,o11,O11O5185.pdf,Globe (Toronto),10/5/1918,"Toronto, Ontario",5,M,10 Shiploads Sent Overseas,N,Measures,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o5186,o11,O11O5186.pdf,Globe (Toronto),10/5/1918,"Toronto, Ontario",6,M,Notes and Comments,N,US,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o5187,o11,O11O5187.pdf,Globe (Toronto),10/5/1918,"Toronto, Ontario",7,M,"Doctor Falls Victim to ""Flu""",N,Renfrew,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o5188,o11,O11O5188.pdf,Globe (Toronto),10/5/1918,"Toronto, Ontario",7,M,"Spanish ""Flu"" is Spreading",N,Renfrew,"Spanish ""flu""; Spanish influenza",,application/pdf,43.6703,-79.3867
+o11o5189,o11,O11O5189.pdf,Globe (Toronto),10/5/1918,"Toronto, Ontario",7,M,Those Handing Foods Should Take Great Care,N,Health measure,Spanish influenza; la grippe,,application/pdf,43.6703,-79.3867
+o11o51810,o11,O11O51810.pdf,Globe (Toronto),10/5/1918,"Toronto, Ontario",13,M,Alfonso is Improving,N,Spanish king has Spanish influenza,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o7181,o11,O11O7181.pdf,Globe (Toronto),10/7/1918,"Toronto, Ontario",2,M,500 Cases in Hamilton,N,R,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o7172,o11,O11O7172.pdf,Globe (Toronto),10/7/1918,"Toronto, Ontario",5,M,"250,000 Sent Every Month",N,War,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o7183,o11,O11O7183.pdf,Globe (Toronto),10/7/1918,"Toronto, Ontario",6,M,Spirit of the Press: Lay it to the Huns,N,Questioning name,Spanish influenza,,application/pdf,43.6703,-79.3867
+o1107184,o11,O1107184.pdf,Globe (Toronto),10/7/1918,"Toronto, Ontario",7,M,"Throat Doctor Victim of ""Flu""",N,R,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o7185,o11,O11O7185.pdf,Globe (Toronto),10/7/1918,"Toronto, Ontario",8,M,Spanish Influenza Seizes ALD. Ramsden,N,R,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o7186,o11,O11O7186.pdf,Globe (Toronto),10/7/1918,"Toronto, Ontario",8,M,Fill Hospitals With New Cases,N,R,Spanish influenza; la grippe,,application/pdf,43.6703,-79.3867
+o11o7187,o11,O11O7187.pdf,Globe (Toronto),10/7/1918,"Toronto, Ontario",11,M,Influenza Hits Kitchener Team,N,R,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o8181,o11,O11O8181.pdf,Globe (Toronto),10/8/1918,"Toronto, Ontario",2,M,"Red Cross Forces Will Fight ""Flu""",N,I,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o8182,o11,O11O8182.pdf,Globe (Toronto),10/8/1918,"Toronto, Ontario",2,M,"Third ""Flu"" Death in Canadian Camp",N,AC,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o8183,o11,O11O8183.pdf,Globe (Toronto),10/8/1918,"Toronto, Ontario",3,M,War Correspondent is Victim of Influenza,N,I,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o8184,o11,O11O8184.pdf,Globe (Toronto),10/8/1918,"Toronto, Ontario",3,M,Montreal Closes All meeting Places,N,R,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o8185,o11,O11O8185.pdf,Globe (Toronto),10/8/1918,"Toronto, Ontario",4,M,Notes and Comments,N,O,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o8186,o11,O11O8186.pdf,Globe (Toronto),10/8/1918,"Toronto, Ontario",5,M,"Spanish ""Flu"" Still Spreadings",N,R,"Spanish ""flu""; Spanish influenza",,application/pdf,43.6703,-79.3867
+o11o8187,o11,O11O8187.pdf,Globe (Toronto),10/8/1918,"Toronto, Ontario",6,M,Illness Grips All Ontario,N,R,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o8188,o11,O11O8188.pdf,Globe (Toronto),10/8/1918,"Toronto, Ontario",6,M,Inquire Into Flu Outbreak,N,R,Spanish Flu;  Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o8189,o11,O11O8189.pdf,Globe (Toronto),10/8/1918,"Toronto, Ontario",9,M,"""Paddy"" Carroll Dies of Spanish Influenza",N,I,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o9181,o11,O11O9181.pdf,Globe (Toronto),10/9/1918,"Toronto, Ontario",2,M,Ontario Items,N,R; AC; I,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o9182,o11,O11O9182.pdf,Globe (Toronto),10/9/1918,"Toronto, Ontario",2,M,Six Deaths at Kitchener,N,R,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o9183,o11,O11O9183.pdf,Globe (Toronto),10/9/1918,"Toronto, Ontario",3,M,Six More Deaths in Hamilton,N,R,Spanish inlfuenza,,application/pdf,43.6703,-79.3867
+o11o9184,o11,O11O9184.pdf,Globe (Toronto),10/9/1918,"Toronto, Ontario",3,M,"180,000 New Cases of Flu in German Army",N,I,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o9185,o11,O11O9185.pdf,Globe (Toronto),10/9/1918,"Toronto, Ontario",6,M,Spanish Influenza,N,R,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o9186,o11,O11O9186.pdf,Globe (Toronto),10/9/1918,"Toronto, Ontario",6,M,Notes and Comments,N,R,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o9187,o11,O11O9187.pdf,Globe (Toronto),10/9/1918,"Toronto, Ontario",8,M,Flu Causes More Deaths,N,R,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o9188,o11,O11O9188.pdf,Globe (Toronto),10/9/1918,"Toronto, Ontario",8,M,Mayor Clashes with Two M.O.H,N,R,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o9189,o11,O11O9189.pdf,Globe (Toronto),10/9/1918,"Toronto, Ontario",8,M,W.O.T.U Meetings Postponed,N,R,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o91810,o11,O11O91810.pdf,Globe (Toronto),,,8,,[No title],N,R,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o91811,o11,O11O91811.pdf,Globe (Toronto),,,8,,Police First Aid Team Examined,N,R,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o91812,o11,O11O91812.pdf,Globe (Toronto),,,11,,History is Repeated in City of Halifax,,R,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o91813,o11,O11O91813.pdf,Globe (Toronto),,,12,,No Deaths Yesterday in Canadian Camp,N,AC,Spanish influenza,,application/pdf,43.6703,-79.3867
+o11o91814,o11,O11O91814.pdf,Globe (Toronto),,,12,,Featherweight Champion Has Had Severe Attack of Grippe,N,R,Spanish influenza; grippe,,application/pdf,43.6703,-79.3867
+o11o91815,o11,O11O91815.pdf,Globe (Toronto),,,14,,Epidemic Still Very Serious,,R,"Spanish influenza; Spanish ""Flu""; grippe",,application/pdf,43.6703,-79.3867

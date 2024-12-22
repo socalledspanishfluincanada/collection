@@ -10,3 +10,5 @@ notes,true,false
 subject,true,false
 latitude,false,false
 longitude,false,false
+filename,true,false
+objectid,true,false

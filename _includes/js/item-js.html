@@ -150,10 +150,16 @@ function displayItem(record, prev_id, next_id, compound_object) {
             var compoundLink = findFileLink(compoundItem[i]);
             var compoundFormat = compoundItem[i].format;
             var compoundTitle = compoundItem[i].title;
+            //var compoundDate = compoundItem[i].date;
             var partOrder = i + 1;
 
             /* account for items without title */
-            var itemTitle = typeof compoundTitle !== 'undefined' ? `<div class="small text-dark mb-2">${compoundTitle.split(" ").splice(0,4).join(" ")}...</div>` : '';
+            var itemTitle = typeof compoundTitle !== 'undefined' ? `
+                <div class="small text-dark mb-2">
+                    <a class="${compoundItem[i].objectid} title" style="text-decoration:underline;color:darkblue;" href="#${compoundItem[i].objectid}" onclick="window.location.hash='${compoundItem[i].objectid}'" data-bs-toggle="modal">
+                        ${compoundTitle.split(" ").splice(0,4).join(" ")}...
+                    </a>
+                </div>` : '';
 
             /* get thumbnail or icon for compound object cards based on item format */
             var compoundIcon, compoundThumb;
@@ -176,10 +182,12 @@ function displayItem(record, prev_id, next_id, compound_object) {
                 compoundThumb = `<img class="img-thumbnail compound-thumb" src="${compoundIcon}" alt="image of ${compoundTitle ? compoundTitle : objectTitle + ', part ' + partOrder}">`;
             } else {
                 compoundThumb = `
-                    <svg class="bi text-body compound-thumb" fill="currentColor" aria-hidden="true">
-                        <use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#${compoundIcon}" />
-                    </svg>
-                    <span class="sr-only d-none">${compoundTitle ? compoundTitle : 'Part ' + partOrder + ' of ' + objectTitle} - ${compoundFormat}</span>`;
+                    <a class="${compoundItem[i].objectid} icon" href="#${compoundItem[i].objectid}" onclick="window.location.hash='${compoundItem[i].objectid}'" data-bs-toggle="modal">
+                        <svg class="bi text-body compound-thumb" fill="currentColor" aria-hidden="true">
+                            <use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#${compoundIcon}" />
+                        </svg>
+                        <span class="sr-only d-none">${compoundTitle ? compoundTitle : 'Part ' + partOrder + ' of ' + objectTitle} - ${compoundFormat}</span>
+                    </a>`;
             }
 
             /* capture index for previous and next modal items */
@@ -289,6 +297,10 @@ function displayItem(record, prev_id, next_id, compound_object) {
                                     <div class="mb-2">
                                         ${compoundThumb}
                                     </div>
+
+                                    <!--JY ADDED DATE FIELD-->
+                                    <strong>Date: </strong><a class="btn btn-sm btn-secondary m-1 text-wrap" role="button" href="/search/index.html?q=${compoundItem[i].date}">${compoundItem[i].date}</a>
+                                    <br>
                                     
                                     <!-- child object modal button -->
                                     <a id="item-${i+1}"
@@ -296,7 +308,7 @@ function displayItem(record, prev_id, next_id, compound_object) {
                                         data-bs-toggle="modal"
                                         href="#${compoundItem[i].objectid}"
                                         onclick="window.location.hash='${compoundItem[i].objectid}'"
-                                        class="btn btn-sm btn-outline-secondary small stretched-link">
+                                        class="btn btn-sm btn-outline-secondary small ${compoundItem[i].objectid} click-this">
                                         ${compoundFormat.includes("image") ? compoundFormat.split("/")[0].toUpperCase() : compoundFormat.split("/").pop().toUpperCase()} <svg class="bi icon-sprite" fill="currentColor" aria-hidden="true"><use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#${compoundFormat.includes('image') ? 'icon-image' : compoundIcon}"/></svg>
                                     </a>
 
