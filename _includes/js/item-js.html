@@ -150,7 +150,7 @@ function displayItem(record, prev_id, next_id, compound_object) {
             var compoundLink = findFileLink(compoundItem[i]);
             var compoundFormat = compoundItem[i].format;
             var compoundTitle = compoundItem[i].title;
-            //var compoundDate = compoundItem[i].date;
+            var compoundDate = encodeURIComponent(compoundItem[i].date);
             var partOrder = i + 1;
 
             /* account for items without title */
@@ -299,7 +299,7 @@ function displayItem(record, prev_id, next_id, compound_object) {
                                     </div>
 
                                     <!--JY ADDED DATE FIELD-->
-                                    <strong>Date: </strong><a class="btn btn-sm btn-secondary m-1 text-wrap" role="button" href="/search/index.html?q=${compoundItem[i].date}">${compoundItem[i].date}</a>
+                                    <strong>Date: </strong><a class="btn btn-sm btn-secondary m-1 text-wrap" role="button" href="/search/index.html?q=${compoundDate}">${compoundItem[i].date}</a>
                                     <br>
                                     
                                     <!-- child object modal button -->
